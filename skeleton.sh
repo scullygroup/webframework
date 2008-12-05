@@ -5,16 +5,16 @@ rm -rf .git
 
 # Create new site skeleton
 mkdir site
-mkdir site/images
-mkdir site/swf
+mkdir ./site/images
+mkdir ./site/swf
 mkdir audio
 mkdir copy
 mkdir flash
 mkdir graphics
-mkdir graphics/fonts
-mkdir graphics/logos
-mkdir graphics/mockups
-mkdir graphics/images
+mkdir ./graphics/fonts
+mkdir ./graphics/logos
+mkdir ./graphics/mockups
+mkdir ./graphics/images
 mkdir planning
 mkdir video
 wget http://jqueryjs.googlecode.com/files/jquery-1.2.6.min.js -O site/scripts/jquery-1.2.6.js
