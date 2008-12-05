@@ -1,10 +1,9 @@
 #!/bin/sh
 
 # Remove original .git directory
-rm -rf .git
+rm -rf $PWD/.git
 
 # Create new site skeleton
-mkdir $PWD/site
 mkdir $PWD/site/images
 mkdir $PWD/site/swf
 mkdir $PWD/audio
