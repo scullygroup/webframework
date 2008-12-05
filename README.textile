@@ -3,7 +3,7 @@ h1. WebFramework Base
 This simple codebase creates a basic, startup skeleton for creating an average website.
 
 It sets-up the following directory structure:
-
+<pre><code>
 |____audio
 |____copy
 |____flash
@@ -29,6 +29,7 @@ It sets-up the following directory structure:
 | | |____sIFR-screen.css
 | |____swf
 |____video
+</pre></code>
 
 h1. Directory Structure Overview
 
@@ -42,9 +43,14 @@ video - all video assets
 
 h1. Installation and Set-Up
 
-Grab this git project and place it in your desired working directory.
-Next, run the skeleton.sh shell script from within your working directory like so:
-<pre><code>sh ./skeleton.sh</code></pre>
+Grab this git project and place it in your desired working directory by issuing the following command (replacing YOURDIRECTORY with whatever you want to name your working directory):
+<pre><code>git clone git://github.com/scullygroup/webframework.git YOURDIRECTORY</code></pre>
+
+Next, cd into your working directory and run the skeleton.sh shell script from within your working directory like so:
+<pre><code>
+  cd YOURDIRECTORY
+  sh ./skeleton.sh
+  </code></pre>
 
 The shell script will create most of the directories outlined previously, as well as download these javascript files and supporting assets:
 *jQuery
