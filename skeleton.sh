@@ -26,6 +26,7 @@ wget http://code.google.com/p/swfobject/source/browse/trunk/swfobject/swfobject.
 wget http://www.mikeindustries.com/blog/files/sifr/2.0/sifr.js -O $PWD/site/scripts/sifr.js
 wget http://jqueryjs.googlecode.com/svn/plugins/jScrollPane/demo/jScrollPane.css -O $PWD/site/styles/jScrollPane.css
 wget http://www.mikeindustries.com/blog/files/sifr/2.0/sIFR-screen.css -O $PWD/site/styles/sIFR-screen.css
+cd $PWD/site
 git init
 git add .
 git commit -a -m "initial commit"

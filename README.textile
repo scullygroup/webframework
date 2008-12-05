@@ -6,7 +6,6 @@ Also, it will create an initial git repository for you with all initial files ad
 
 It sets-up the following directory structure:
 <pre><code>
-  |____.git
   |____audio
   |____copy
   |____flash
@@ -17,6 +16,7 @@ It sets-up the following directory structure:
   | |____mockups
   |____planning
   |____site
+  | |____.git
   | |____images
   | |____index.php
   | |____scripts
