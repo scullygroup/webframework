@@ -1,0 +1,59 @@
+h1. WebFramework Base
+
+This simple codebase creates a basic, startup skeleton for creating an average website.
+
+It sets-up the following directory structure:
+
+|____audio
+|____copy
+|____flash
+|____graphics
+| |____fonts
+| |____images
+| |____logos
+| |____mockups
+|____planning
+|____site
+| |____images
+| |____scripts
+| | |____jquery-1.2.6.js
+| | |____jquery.dimensions.js
+| | |____jquery.metadata.js
+| | |____jquery.mousewheel.js
+| | |____jquery.validate.js
+| | |____jScrollPane.js
+| | |____sifr.js
+| | |____swfobject.js
+| |____styles
+| | |____jScrollPane.css
+| | |____sIFR-screen.css
+| |____swf
+|____video
+
+h1. Directory Structure Overview
+
+audio - for all audio content
+copy - for all web copy and pdfs
+flash - for all flash assets
+graphics - for all graphics, contains subfolder for organization
+planning - for all planning (sitemaps, estimates, etc)
+site - all website content (contains subdirectories for images, scripts, styles, and swf)
+video - all video assets
+
+h1. Installation and Set-Up
+
+Grab this git project and place it in your desired working directory.
+Next, run the skeleton.sh shell script from within your working directory like so:
+<pre><code>sh ./skeleton.sh</code></pre>
+
+The shell script will create most of the directories outlined previously, as well as download these javascript files and supporting assets:
+*jQuery
+*jquery.metadata.js
+*jquery.dimensions.js
+*jquery.mousewheel.js
+*jScrollPane.js
+*jquery.validate.js
+*swfobject.js
+*sifr.js
+*jScrollPane.css
+*sIFR-screen.css
