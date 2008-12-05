@@ -1,34 +1,70 @@
 h1. WebFramework Base
 
 This simple codebase creates a basic, startup skeleton for creating an average website.
+It includes directories for all stages of planning, design, and development.
+Also, it will create an initial git repository for you with all initial files added and committed.
 
 It sets-up the following directory structure:
 <pre><code>
-|____audio
-|____copy
-|____flash
-|____graphics
-| |____fonts
-| |____images
-| |____logos
-| |____mockups
-|____planning
-|____site
-| |____images
-| |____scripts
-| | |____jquery-1.2.6.js
-| | |____jquery.dimensions.js
-| | |____jquery.metadata.js
-| | |____jquery.mousewheel.js
-| | |____jquery.validate.js
-| | |____jScrollPane.js
-| | |____sifr.js
-| | |____swfobject.js
-| |____styles
-| | |____jScrollPane.css
-| | |____sIFR-screen.css
-| |____swf
-|____video
+  |____.git
+  |____audio
+  |____copy
+  |____flash
+  |____graphics
+  | |____fonts
+  | |____images
+  | |____logos
+  | |____mockups
+  |____planning
+  |____site
+  | |____images
+  | |____index.php
+  | |____scripts
+  | | |____base.js
+  | | |____jquery-1.2.6.js
+  | | |____jquery.dimensions.js
+  | | |____jquery.metadata.js
+  | | |____jquery.mousewheel.js
+  | | |____jquery.validate.js
+  | | |____jScrollPane.js
+  | | |____rollovers.js
+  | | |____shadowbox-2.0
+  | | | |____classic
+  | | | | |____icons
+  | | | | | |____close.png
+  | | | | | |____next.png
+  | | | | | |____pause.png
+  | | | | | |____play.png
+  | | | | | |____previous.png
+  | | | | |____icons.psd
+  | | | | |____loading.gif
+  | | | | |____skin.css
+  | | | | |____skin.js
+  | | | |____player
+  | | | | |____README
+  | | | | |____shadowbox-flv.js
+  | | | | |____shadowbox-html.js
+  | | | | |____shadowbox-iframe.js
+  | | | | |____shadowbox-img.js
+  | | | | |____shadowbox-qt.js
+  | | | | |____shadowbox-swf.js
+  | | | | |____shadowbox-wmp.js
+  | | | |____shadowbox-en.js
+  | | | |____shadowbox-jquery.js
+  | | | |____shadowbox.js
+  | | |____sifr.js
+  | | |____supersleight.js
+  | | |____swfobject.js
+  | | |____x.gif
+  | |____styles
+  | | |____ie6.css
+  | | |____ie7.css
+  | | |____jScrollPane.css
+  | | |____reset.css
+  | | |____sIFR-screen.css
+  | | |____style.css
+  | |____swf
+  |____video
 </pre></code>
 
 h1. Directory Structure Overview
