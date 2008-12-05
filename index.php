@@ -24,8 +24,8 @@
 <script src="scripts/rollovers.js" type="text/javascript" charset="utf-8"></script>
 
 <!-- form validation -->
-<script src="scripts/jquery.validate.pack.js" type="text/javascript" charset="utf-8"></script>
-<script src="scripts/jquery.metadata.pack.js" type="text/javascript" charset="utf-8"></script>
+<script src="scripts/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
+<script src="scripts/jquery.metadata.js" type="text/javascript" charset="utf-8"></script>
 
 <!-- jScrollPane scripts -->
 <script src="scripts/jquery.dimensions.js" type="text/javascript" charset="utf-8"></script>

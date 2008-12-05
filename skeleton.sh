@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Remove original .git directory
+rm -rf .git
+
 # Create new site skeleton
 mkdir site
 mkdir site/images
@@ -26,3 +29,4 @@ wget http://jqueryjs.googlecode.com/svn/plugins/jScrollPane/demo/jScrollPane.css
 wget http://www.mikeindustries.com/blog/files/sifr/2.0/sIFR-screen.css -O site/styles/sIFR-screen.css
 git init
 git add .
+git commit -a -m "initial commit"
