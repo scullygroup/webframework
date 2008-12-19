@@ -25,9 +25,13 @@ $(document).ready(function() {
 
 ////////////////////////////////////////////////////////////////////////////swfobject call
 	
-	// var so = new SWFObject('swf/flash.swf','flash_movie','705','389','8');
-	// so.addParam("quality", "high");
-	// so.addParam("wmode", "transparent");
-	// so.write('flash');
+// var flashvars = {};
+// var params = {
+//     menu: "false",
+//     wmode: "transparent"
+//     };
+// var attributes = {};
+// 
+// swfobject.embedSWF("swf/slideshow.swf", "flash-header", "1000", "317","9.0.0", "", flashvars, params, attributes);
 
 }); //end document.ready
