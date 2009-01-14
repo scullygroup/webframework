@@ -11,11 +11,11 @@
 <link href="styles/reset.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8" />
 <link href="styles/style.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8" />
 <link href="styles/sIFR-screen.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8" />
+<!--[if IE]><link href="styles/ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
 <!--[if lte IE 6]>
   <link href="styles/ie6.css" rel="stylesheet" type="text/css" />
   <script src="scripts/supersleight.js" type="text/javascript" charset="utf-8"></script>
 <![endif]-->
-<!--[if gte IE 7]><link href="styles/ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
 
 <!-- scripts -->
 <script src="scripts/jquery-1.2.6.js" type="text/javascript" charset="utf-8"></script>
@@ -48,9 +48,9 @@
 
 <div id="wrapper">
 
-<div id="masthead">	
+<div id="header">	
 
-</div><!-- end masthead -->
+</div><!-- end header -->
 
 <div id="main-nav">
 
