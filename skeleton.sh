@@ -16,7 +16,7 @@ mkdir $PWD/graphics/mockups
 mkdir $PWD/graphics/images
 mkdir $PWD/planning
 mkdir $PWD/video
-wget http://jqueryjs.googlecode.com/files/jquery-1.2.6.min.js -O $PWD/site/scripts/jquery-1.2.6.js
+wget http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js -O $PWD/site/scripts/jquery-1.3.2.js
 wget http://jqueryjs.googlecode.com/svn/plugins/metadata/jquery.metadata.pack.js -O $PWD/site/scripts/jquery.metadata.js
 wget http://jqueryjs.googlecode.com/svn/plugins/dimensions/jquery.dimensions.js -O $PWD/site/scripts/jquery.dimensions.js
 wget http://jqueryjs.googlecode.com/svn/plugins/mousewheel/jquery.mousewheel.js -O $PWD/site/scripts/jquery.mousewheel.js
