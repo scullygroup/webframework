@@ -18,7 +18,7 @@
 <![endif]-->
 
 <!-- scripts -->
-<script src="scripts/jquery-1.2.6.js" type="text/javascript" charset="utf-8"></script>
+<script src="scripts/jquery-1.3.2.js" type="text/javascript" charset="utf-8"></script>
 <script src="scripts/sifr.js" type="text/javascript" charset="utf-8"></script>
 <script src="scripts/swfobject.js" type="text/javascript" charset="utf-8"></script>
 
