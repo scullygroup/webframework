@@ -21,47 +21,13 @@ It sets-up the following directory structure:
   | |____index.php
   | |____scripts
   | | |____base.js
-  | | |____jquery-1.2.6.js
-  | | |____jquery.dimensions.js
   | | |____jquery.metadata.js
-  | | |____jquery.mousewheel.js
   | | |____jquery.validate.js
-  | | |____jScrollPane.js
   | | |____rollovers.js
-  | | |____shadowbox-2.0
-  | | | |____classic
-  | | | | |____icons
-  | | | | | |____close.png
-  | | | | | |____next.png
-  | | | | | |____pause.png
-  | | | | | |____play.png
-  | | | | | |____previous.png
-  | | | | |____icons.psd
-  | | | | |____loading.gif
-  | | | | |____skin.css
-  | | | | |____skin.js
-  | | | |____player
-  | | | | |____README
-  | | | | |____shadowbox-flv.js
-  | | | | |____shadowbox-html.js
-  | | | | |____shadowbox-iframe.js
-  | | | | |____shadowbox-img.js
-  | | | | |____shadowbox-qt.js
-  | | | | |____shadowbox-swf.js
-  | | | | |____shadowbox-wmp.js
-  | | | |____shadowbox-en.js
-  | | | |____shadowbox-jquery.js
-  | | | |____shadowbox.js
-  | | |____sifr.js
-  | | |____supersleight.js
   | | |____swfobject.js
-  | | |____x.gif
   | |____styles
-  | | |____ie6.css
   | | |____ie7.css
-  | | |____jScrollPane.css
   | | |____reset.css
-  | | |____sIFR-screen.css
   | | |____style.css
   | |____swf
   |____video
@@ -89,13 +55,8 @@ Next, cd into your working directory and run the skeleton.sh shell script from w
   </code></pre>
 
 The shell script will create most of the directories outlined previously, as well as download these javascript files and supporting assets:
-*jQuery
 *jquery.metadata.js
-*jquery.dimensions.js
-*jquery.mousewheel.js
-*jScrollPane.js
 *jquery.validate.js
 *swfobject.js
-*sifr.js
-*jScrollPane.css
-*sIFR-screen.css
+
+jQuery and jQuery Tools are also referenced in index.php from a CDN service.

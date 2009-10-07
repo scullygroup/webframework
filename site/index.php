@@ -10,16 +10,16 @@
 <!-- styles -->
 <link href="styles/reset.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8" />
 <link href="styles/style.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8" />
-<link href="styles/sIFR-screen.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8" />
 <!--[if IE]><link href="styles/ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
-<!--[if lte IE 6]>
-  <link href="styles/ie6.css" rel="stylesheet" type="text/css" />
-  <script src="scripts/supersleight.js" type="text/javascript" charset="utf-8"></script>
-<![endif]-->
+
+
+<!-- jQuery from Google's CDN service.  --> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
+ 
+<!-- jQuery Tools: Tabs, Tooltip, Scrollable, Overlay, Expose. --> 
+<script src="http://cdn.jquerytools.org/1.1.2/tiny/jquery.tools.min.js"></script>
 
 <!-- scripts -->
-<script src="scripts/jquery-1.3.2.js" type="text/javascript" charset="utf-8"></script>
-<script src="scripts/sifr.js" type="text/javascript" charset="utf-8"></script>
 <script src="scripts/swfobject.js" type="text/javascript" charset="utf-8"></script>
 
 <!-- image rollovers -->
@@ -29,15 +29,6 @@
 <script src="scripts/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
 <script src="scripts/jquery.metadata.js" type="text/javascript" charset="utf-8"></script>
 
-<!-- jScrollPane scripts -->
-<script src="scripts/jquery.dimensions.js" type="text/javascript" charset="utf-8"></script>
-<script src="scripts/jquery.mousewheel.js" type="text/javascript" charset="utf-8"></script>
-<script src="scripts/jScrollPane.js" type="text/javascript" charset="utf-8"></script>
-<link rel="stylesheet" href="styles/jScrollPane.css" type="text/css" media="screen" charset="utf-8" />
-
-<!-- shadowbox script -->
-<script src="scripts/shadowbox-2.0/shadowbox-jquery.js" type="text/javascript" charset="utf-8"></script>
-<script src="scripts/shadowbox-2.0/shadowbox.js" type="text/javascript" charset="utf-8"></script>
 
 <!-- put all js normally inserted in <head> here to keep things neat -->
 <script src="scripts/base.js" type="text/javascript" charset="utf-8"></script>
